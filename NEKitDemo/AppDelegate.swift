@@ -1,6 +1,9 @@
 import Cocoa
 import NEKit
-import CocoaLumberjackSwift
+
+
+import CocoaLumberjack
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

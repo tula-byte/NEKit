@@ -1,18 +1,22 @@
 import Foundation
+
+
 import CocoaLumberjackSwift
 
+/*
+
 public class Router {
-    var IPv4NATRoutes: [Port: (IPv4Address, Port)] = [:]
-    let interfaceIP: IPv4Address
-    let fakeSourceIP: IPv4Address
-    let proxyServerIP: IPv4Address
+    var IPv4NATRoutes: [Port: (IPAddress, Port)] = [:]
+    let interfaceIP: IPAddress
+    let fakeSourceIP: IPAddress
+    let proxyServerIP: IPAddress
     let proxyServerPort: Port
     //    let IPv6NATRoutes: [UInt16] = []
 
     public init(interfaceIP: String, fakeSourceIP: String, proxyServerIP: String, proxyServerPort: UInt16) {
-        self.interfaceIP = IPv4Address(fromString: interfaceIP)
-        self.fakeSourceIP = IPv4Address(fromString: fakeSourceIP)
-        self.proxyServerIP = IPv4Address(fromString: proxyServerIP)
+        self.interfaceIP = IPAddress(fromString: interfaceIP)!
+        self.fakeSourceIP = IPAddress(fromString: fakeSourceIP)!
+        self.proxyServerIP = IPAddress(fromString: proxyServerIP)!
         self.proxyServerPort = Port(port: proxyServerPort)
     }
 
@@ -84,3 +88,4 @@ public class Router {
         }
     }
 }
+*/

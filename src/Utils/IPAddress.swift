@@ -115,6 +115,14 @@ public class IPAddress: CustomStringConvertible, Comparable {
         }
         return outputData!
     }
+    
+    public var bytesInNetworkOrder: UInt16? {
+        var outputData: UInt16 = nil
+        withBytesInNetworkOrder {
+            outputData = $0
+        }
+        return outputData!
+    }
 
     public var UInt32InNetworkOrder: UInt32? {
         switch self.address {

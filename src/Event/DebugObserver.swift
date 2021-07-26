@@ -1,5 +1,9 @@
 import Foundation
-import CocoaLumberjackSwift
+
+
+import CocoaLumberjack
+
+
 
 open class DebugObserverFactory: ObserverFactory {
     public override init() {}

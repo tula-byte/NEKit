@@ -1,6 +1,8 @@
 import Foundation
 import CocoaLumberjackSwift
 
+
+
 open class DNSSession {
     public let requestMessage: DNSMessage
     var requestIPPacket: IPPacket?
